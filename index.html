@@ -1,0 +1,213 @@
+<?php 
+if (isset($_POST)) {
+	$name = $_POST['name'];
+	$email = $_POST['email'];
+	$message = $_POST['message'];
+
+
+	mail('iamgurwinderdubb@gmail.com','Contacted from my site', 'From'.$email.''.$message);
+	header('Location: http://www.gurwinder.tk/');
+	exit();
+}
+
+?>
+
+
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Gurwinder Singh</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/gurwinder.jpg" alt="" /></span>
+							<h1 id="title">Gurwinder Singh</h1>
+							<p>Web developer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+						
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://twitter.com/gurwinderdub" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/gurwindersinghdub" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://github.com/iamgurwinderdubb" class="icon fa-github"><span class="label">Github</span></a></li>
+							<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+							<li><a href="mailto:iamgurwinderdubb@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Hi! I'm <strong>Gurwinder</strong>, a <a href="http://html5up.net/license">back-end</a> developer<br />
+								working as a <a href="http://html5up.net">freelancer</a>.</h2>
+								
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">Check My Work</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+
+							<p>I have covered a lot of projects inshore and offshore as well. Showing few of them. </p>
+							
+
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a target="_blank" href="http://nadarfoundation.org" class="image fit"><img src="images/nadar.jpg" alt="Wordpress Customization" /></a>
+										<header>
+											<h3>Nadar Foundation</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a target="_blank" href="http://dbxdirect.com" class="image fit"><img src="images/dbx.jpg" alt="Woocommerce" /></a>
+										<header>
+											<h3>DBX Direct</h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a target="_blank" href="http://buycpap.com" class="image fit"><img src="images/buycpap.jpg" alt="Wordpress, Woocommerce, Customization" /></a>
+										<header>
+											<h3>Buy Cpap</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a target="_blank" href="http://brpaper.com" class="image fit"><img src="images/brpaper.jpg" alt="Education, Core PHP" /></a>
+										<header>
+											<h3>Brpaper</h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u$ 12u$(mobile)">
+									<article class="item">
+										<a target="_blank"  href="hopeelc.com.au" class="image fit"><img src="images/hopeelc.jpg" alt="Wordpress, and Plugins" /></a>
+										<header>
+											<h3>Hopeelc</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a target="_blank"  href="https://playgroundideas.org/year-of-awesome/" class="image fit"><img src="images/playground-1.jpg" alt="Wordpress Plugin, Ticketing system" /></a>
+										<header>
+											<h3>Playground Ticketing Plugin</h3>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/about.jpg" alt="" /></a>
+							<p>After my graduation in Computer Science 2011, I started career with Ddeveloperz. I am currently working with them as part time empolyee. All issues generated at worked are given to me for solving.</p>
+							<p>I am expert in HTML, CSS, javascript, Jquery, React,PHP,Laravel, WordPress, Wordpress theme customization , WordPress Plugin creation, Woocommerce , basics of ruby and basic of ASP web API's.</p>
+							<p>I am very good at handling control panel and Linux hosting servers. I can also setup SSL certificates in Websites.</p>
+							<p>Recently , I learned to install dicourse on linux server. I can also manage in hosting apache server and discourse together</p>
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>Feel Free to contact me</p>
+
+							<form method="post" action="#">
+								<div class="row">
+									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="12u$">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="12u$">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; gurwinder.tk. All rights reserved.</li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
